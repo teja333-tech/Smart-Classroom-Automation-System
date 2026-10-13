@@ -3,6 +3,14 @@
 
 An STM32-based embedded systems project that automates classroom lighting and temperature-based fan control using sensors. The system monitors environmental conditions, displays sensor readings on an LCD, and transmits data to an ESP32 through UART communication.
 
+### Source Code Note
+
+The `main.c` file contains the STM32 microcontroller firmware source code for the Smart Classroom Automation System.
+
+**Dependencies:** The firmware requires `main.h`, the STM32 Hardware Abstraction Layer (HAL) libraries, and the appropriate STM32 project configuration to compile and run.
+
+**Note:** This repository currently contains the firmware source code and project documentation, not the complete STM32CubeIDE project. Additional configuration files and dependencies are required to build the firmware.
+
 ## Overview
 
 The Smart Classroom Automation System aims to improve classroom convenience and energy efficiency through sensor-based automation. It uses an STM32 microcontroller to process sensor readings and control connected electrical devices according to predefined conditions.
