@@ -1,5 +1,4 @@
-# Smart-Classroom-Automation-System
-An STM32-based smart classroom automation system using sensors for automatic lighting, temperature monitoring, and fan control.
+
 # Smart Classroom Automation System
 
 An STM32-based embedded systems project that automates classroom lighting and temperature-based fan control using sensors. The system monitors environmental conditions, displays sensor readings on an LCD, and transmits data to an ESP32 through UART communication.
