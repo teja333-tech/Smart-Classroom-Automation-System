@@ -66,10 +66,6 @@ Smart-Classroom-Automation-System/
 
 ## Source Code
 
-The repository includes the available STM32 firmware source code in `main.c`.
-
-**Important:** The uploaded source file depends on STM32 HAL libraries, a `main.h` header file, and the associated microcontroller configuration and initialization files. The standalone source file is not a complete, independently buildable STM32CubeIDE project.
-
 ## Current Limitations
 
 * The lighting and temperature thresholds are predefined in the firmware.
